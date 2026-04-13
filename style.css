@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/*-----HEADER-----*/
+.header, .header_perfil, .header_navbar{
+    display: flex;
+}
+.header{
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #000;
+}
+.header_perfil{
+    align-items: center;
+}
+.header_perfil_img{
+    width: 100px;
+    border-radius: 50%;
+}
+.header_perfil_titulo{
+    margin: 0;
+    font-size: 1.7rem;
+    padding: 0 20px;
+}
+.header_navbar{
+    align-items: center;
+}
+.header_navbar_lista{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header_navbar_lista a{
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0 0 7px transparent;
+    transition: 0.5s text-shadow;
+}
+.header_navbar_lista li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+.header_navbar_lista a:hover{
+    text-shadow: 0 0 7px #fff;
+}
