@@ -16,9 +16,11 @@ body{
     justify-content: space-between;
     padding: 20px 50px;
     background-color: #000;
+
 }
 .header_perfil{
     align-items: center;
+    justify-content: center;
 }
 .header_perfil_img{
     width: 100px;
@@ -26,6 +28,7 @@ body{
 }
 .header_perfil_titulo{
     margin: 0;
+    text-align: center;
     font-size: 1.7rem;
     padding: 0 20px;
 }
@@ -35,6 +38,7 @@ body{
 .header_navbar_lista{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .header_navbar_lista a{
     padding: 10px;
@@ -49,4 +53,10 @@ body{
 }
 .header_navbar_lista a:hover{
     text-shadow: 0 0 7px #fff;
+}
+
+@media screen and (max-width: 500px) {
+    .header{
+        flex-direction: column;
+    }
 }
