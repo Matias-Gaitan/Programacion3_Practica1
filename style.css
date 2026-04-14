@@ -59,6 +59,13 @@ body{
 @media screen and (max-width: 500px) {
     .header{
         flex-direction: column;
+        padding: 10px 25px;
+    }
+    .header_perfil_img{
+        width: 50px;
+    }
+    .header_perfil_titulo{
+        font-size: 1.3rem;
     }
     .header_navbar{
         display: none;
@@ -105,6 +112,12 @@ body{
     object-fit: cover;
     filter: drop-shadow(0 0 17px #6e3af5);
     z-index: -1;
+}
+@media screen and (max-width: 500px) {
+    .tecnologias_item{
+        min-width: 125px;
+        height: 125px;
+    }
 }
 
 /*-----MAIN-PROYECTOS-----*/
