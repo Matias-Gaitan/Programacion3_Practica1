@@ -56,7 +56,7 @@ body{
     text-shadow: 0 0 7px #fff;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 630px) {
     .header{
         flex-direction: column;
         padding: 10px 25px;
@@ -71,6 +71,7 @@ body{
         display: none;
     }
 }
+
 /*-----MAIN_PRESENTACION-----*/
 
 .presentacion{
