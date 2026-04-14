@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Matías Gaitán">
+    <meta name="title" content="Matías Gaitán">
+    <meta name="description" content="Esta pagina es un ejercicio de la materia Programación3 del tercer año de la tecnicatura superior en desarrollo de software">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/Gyro.400.jpg" type="image/jpg">
     <title>Matías Gaitán</title>
 </head>
 <body>
@@ -14,28 +18,28 @@
         </div>
         <nav class="header_navbar">
             <ul class="header_navbar_lista">
-                <a href="">
+                <a href="#presentacion">
                     <li>Sobre mí</li>
                 </a>
-                <a href="">
+                <a href="#tecnologias">
                     <li>Tecnologías</li>
                 </a>
-                <a href="">
+                <a href="#proyectos">
                     <li>Proyectos</li>
                 </a>
-                <a href="">
+                <a href="#footer">
                     <li>Contacto</li>
                 </a>
             </ul>
         </nav>
     </header>
     <main class="main">
-        <section class="presentacion">
+        <section class="presentacion" id="presentacion">
             <h2 class="presentacion_titulo">¿Quién soy?</h2>
             <p class="presentacion_texto">Soy un desarrollador en formación apasionado por la tecnología y la creación de soluciones digitales. Me interesa combinar el aprendizaje constante con la práctica, explorando desde el desarrollo web hasta la gestión de proyectos.
 Mi objetivo es crecer como profesional, aportar ideas innovadoras y trabajar en proyectos que generen impacto positivo. Me considero una persona curiosa, responsable y con ganas de enfrentar nuevos desafíos.</p>
         </section>
-        <section class="tecnologias">
+        <section class="tecnologias" id="tecnologias">
             <h2 class="tecnologias_titulo">Tecnologías que manejo</h2>
             <div class="tecnologias_container">
                 <div class="tecnologias_item tecnologias_item--1"></div>
@@ -47,7 +51,7 @@ Mi objetivo es crecer como profesional, aportar ideas innovadoras y trabajar en 
                 <div class="tecnologias_item tecnologias_item--7"></div>
             </div>
         </section>
-        <section class="proyectos">
+        <section class="proyectos" id="proyectos">
             <h2 class="proyectos_titulo">Proyectos:</h2>
             <div class="proyectos_container">
                 <a href="https://youtu.be/dQw4w9WgXcQ" class="proyecto_link" target="_blank">
@@ -71,8 +75,15 @@ Mi objetivo es crecer como profesional, aportar ideas innovadoras y trabajar en 
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="footer" id="footer">
+        <p class="footer_copyr">© 2026</p>
+        <div class="footer_contacto">
+            <h3 class="contacto_titulo">Contáctame vía:</h3>
+            <ul class="contacto_lista">
+                <a href="mailto:matiasgaitan370@gmail.com" class="contacto_link">Gmail</a>
+                <a href="https://api.whatsapp.com/send?phone=5493515495880&text=Hola Matías, me gustaría contratarte" class="contacto_link" target="_blank">WhatsApp</a>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>
