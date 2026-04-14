@@ -101,30 +101,12 @@ body{
 .tecnologias_item{
     min-width: 250px;
     height: 250px;
-    background-image: url("https://imgs.search.brave.com/CZkuALz-BPGJSoxzUVUfzcPFoU_CKMAmKB7b7z4_2aQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL3RodW1icy82/MmE4NmVmYTE0YTM4/Y2NlMGMzNzFjMTEu/cG5n");
-    background-position: center;
-    background-size: cover;
-    box-shadow: 0 0 30px #6e3af5;
-    border-radius: 50%;
+    object-position: center;
+    object-fit: cover;
+    filter: drop-shadow(0 0 17px #6e3af5);
+    z-index: -1;
 }
-.tecnologias_item--2{
-    background-image: url("https://imgs.search.brave.com/eSCkkjm6BCMGVpeVcD79ltIJ9jkoFqRs8qIBofMX7fw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zZWVr/dmVjdG9ycy5jb20v/c3RvcmFnZS9pbWFn/ZXMvQ1NoYXJwLTAx/LnN2Zw");
-}
-.tecnologias_item--3{
-    background-image: url("https://imgs.search.brave.com/lVlq-9U-DD3GVacILuZMhMoScwx6imJ8fWkjmctmSHc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Vla2xvZ28u/Y29tL2xvZ28tcG5n/LzkvMi9teXNxbC1s/b2dvLXBuZ19zZWVr/bG9nby05NjU3OC5w/bmc");
-}
-.tecnologias_item--4{
-    background-image: url("https://imgs.search.brave.com/PtxEKKFLT75eo4D37tO_Cw4AUnQuBM0esHnuRBKHxFU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Vla2xvZ28u/Y29tL2xvZ28tcG5n/LzIwLzIvaHRtbDUt/bG9nby1wbmdfc2Vl/a2xvZ28tMjA2ODM0/LnBuZw");
-}
-.tecnologias_item--5{
-    background-image: url("https://imgs.search.brave.com/CmQeDt2xL4gk-_NSA2UbhG9K5Rv6GQSdRe_DHWJXEkw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/ZnJlZWJpZXN1cHBs/eS5jb20vbG9nb3Mv/bGFyZ2UvMngvY3Nz/My1sb2dvLXBuZy10/cmFuc3BhcmVudC5w/bmc");
-}
-.tecnologias_item--6{
-    background-image: url("https://imgs.search.brave.com/19m5lkKcwINfH_XJZvBnVJPhbP_6Xd_BVQfD9Rrcv4A/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Vla2xvZ28u/Y29tL2xvZ28tcG5n/LzM4LzIvc3ByaW5n/LWJvb3QtbG9nby1w/bmdfc2Vla2xvZ28t/Mzg1NTAzLnBuZw");
-}
-.tecnologias_item--7{
-    background-image: url("https://imgs.search.brave.com/4KsWlin3_5Ctv0Mr6yMjbaW8xDKcYE0vrfbcDV-VjJM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9sb2dv/c3BuZy5vcmcvZG93/bmxvYWQvamF2YXNj/cmlwdC9sb2dvLWph/dmFzY3JpcHQtaWNv/bi0yNTYucG5n");
-}
+
 /*-----MAIN-PROYECTOS-----*/
 .proyectos_titulo{
     max-width: 900px;
